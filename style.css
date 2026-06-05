@@ -1,0 +1,141 @@
+/* =========================================
+   GreenValley Hotel & Restaurant — style.css
+   ========================================= */
+
+/* ---------- Variables ---------- */
+:root {
+    --green:      #2e7d32;
+    --green-dark: #1b5e20;
+    --green-light:#e8f5e9;
+    --text:       #333;
+    --muted:      #666;
+  }
+  
+  /* ---------- Base ---------- */
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--text);
+    line-height: 1.7;
+  }
+  
+  /* ---------- Navbar ---------- */
+  .navbar {
+    background-color: var(--green-dark);
+  }
+  
+  .navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .nav-link {
+    color: #cce5cc !important;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important;
+  }
+  
+  /* ---------- Hero ---------- */
+  .hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1400&q=80')
+                center/cover no-repeat;
+  }
+  
+  /* ---------- Section Title ---------- */
+  .section-title {
+    color: var(--green-dark);
+    border-left: 4px solid var(--green);
+    padding-left: 10px;
+    margin-bottom: 1.2rem;
+  }
+  
+  /* --- center variant --- */
+  .section-title.text-center {
+    border-left: none;
+    padding-left: 0;
+    border-bottom: 2px solid var(--green);
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  
+  /* Centering trick for the block-level title */
+  .text-center .section-title,
+  h2.section-title.text-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ---------- Cards ---------- */
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* ---------- Footer ---------- */
+  .footer {
+    background-color: var(--green-dark);
+  }
+  
+  .footer-link {
+    color: #cce5cc;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-link:hover {
+    color: #fff;
+  }
+  
+  .footer-icon {
+    color: #cce5cc;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .footer-icon:hover {
+    color: #fff;
+  }
+  
+  /* ---------- Buttons ---------- */
+  .btn-success {
+    background-color: var(--green);
+    border-color: var(--green);
+  }
+  
+  .btn-success:hover {
+    background-color: var(--green-dark);
+    border-color: var(--green-dark);
+  }
+  
+  /* ---------- Form ---------- */
+  .form-control:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 0.2rem rgba(46,125,50,0.2);
+  }
+  
+  /* ---------- Responsive tweaks ---------- */
+  @media (max-width: 576px) {
+    .hero {
+      min-height: 70vh;
+    }
+  
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+  
+    .card-img-top {
+      height: 180px;
+    }
+  }

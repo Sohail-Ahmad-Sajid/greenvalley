@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenValley Hotel & Restaurant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <i class="bi bi-tree-fill me-2"></i>GreenValley
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link" href="#restaurant">Restaurant</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold">Welcome to GreenValley</h1>
+      <p class="lead mb-4">Hotel & Restaurant — Where Nature Meets Comfort</p>
+      <a href="#rooms" class="btn btn-success me-2">Explore Rooms</a>
+      <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&q=80"
+            alt="Hotel exterior"
+            class="img-fluid rounded shadow-sm"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="section-title">About Us</h2>
+          <p>
+            Nestled in the heart of lush green hills, <strong>GreenValley Hotel & Restaurant</strong>
+            has been a destination for travellers seeking peace, comfort, and warm hospitality since 2005.
+          </p>
+          <p>
+            Our property spans 5 acres of scenic landscape with well-appointed rooms, a multi-cuisine
+            restaurant, and facilities designed to make every stay memorable.
+          </p>
+          <ul class="list-unstyled mt-3">
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>50+ Comfortable Rooms</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Multi-Cuisine Restaurant</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Free Wi-Fi & Parking</li>
+            <li><i class="bi bi-check-circle-fill text-success me-2"></i>24/7 Front Desk Service</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section id="rooms" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Our Rooms</h2>
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80"
+              class="card-img-top"
+              alt="Standard Room"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Standard Room</h5>
+              <p class="card-text text-muted">Cozy and well-furnished room with all basic amenities for a comfortable stay.</p>
+              <span class="badge bg-success">From $60 / night</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&q=80"
+              class="card-img-top"
+              alt="Deluxe Room"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text text-muted">Spacious room with valley view, king-size bed, and premium toiletries.</p>
+              <span class="badge bg-success">From $95 / night</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&q=80"
+              class="card-img-top"
+              alt="Suite"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Luxury Suite</h5>
+              <p class="card-text text-muted">Our finest suite with a private balcony, living area, and panoramic views.</p>
+              <span class="badge bg-success">From $160 / night</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESTAURANT -->
+  <section id="restaurant" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Restaurant</h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6">
+          <h4>Dine with a View</h4>
+          <p>
+            Our in-house restaurant serves fresh, locally sourced dishes with flavours from around the world.
+            Whether it's a hearty breakfast, a light lunch, or a romantic dinner — we have something for every palate.
+          </p>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-clock me-2 text-success"></i>Breakfast: 7:00 AM – 10:30 AM</li>
+            <li><i class="bi bi-clock me-2 text-success"></i>Lunch: 12:00 PM – 3:00 PM</li>
+            <li><i class="bi bi-clock me-2 text-success"></i>Dinner: 7:00 PM – 10:30 PM</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-2">
+            <div class="col-6">
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80"
+                class="img-fluid rounded"
+                alt="Restaurant food"
+              />
+            </div>
+            <div class="col-6">
+              <img
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80"
+                class="img-fluid rounded"
+                alt="Dishes"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY STRIP -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Gallery</h2>
+      <div class="row g-2">
+        <div class="col-6 col-md-3">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=400&q=80" class="img-fluid rounded" alt="Hotel pool" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400&q=80" class="img-fluid rounded" alt="Hotel lobby" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400&q=80" class="img-fluid rounded" alt="Hotel view" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=400&q=80" class="img-fluid rounded" alt="Hotel garden" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Contact Us</h2>
+      <div class="row g-4">
+
+        <div class="col-md-5">
+          <h5>Get in Touch</h5>
+          <p class="text-muted">We'd love to hear from you. Reach us via any of the channels below.</p>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i>GreenValley Road, Hill District, Pakistan</li>
+            <li class="mb-2"><i class="bi bi-telephone-fill text-success me-2"></i>+92 300 1234567</li>
+            <li class="mb-2"><i class="bi bi-envelope-fill text-success me-2"></i>info@greenvalleyhotel.com</li>
+            <li class="mb-2"><i class="bi bi-clock-fill text-success me-2"></i>Front Desk: 24 / 7</li>
+          </ul>
+        </div>
+
+        <div class="col-md-7">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-4 text-white">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-4">
+          <strong><i class="bi bi-tree-fill me-1"></i>GreenValley Hotel & Restaurant</strong>
+          <p class="small mt-1 mb-0">Where Nature Meets Comfort</p>
+        </div>
+        <div class="col-md-4 text-md-center">
+          <a href="#home" class="footer-link me-3">Home</a>
+          <a href="#about" class="footer-link me-3">About</a>
+          <a href="#rooms" class="footer-link me-3">Rooms</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <a href="#" class="footer-icon me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="footer-icon me-2"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="footer-icon"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+      <hr class="border-secondary mt-3 mb-2" />
+      <p class="text-center small mb-0">&copy; 2024 GreenValley Hotel & Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
